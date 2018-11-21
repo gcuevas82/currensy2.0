@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="site.css" />
+        <title>Currency Exchange Rate</title>
+        <h1>Currency Exchange Rates</h1>
+          
+        
+       </head>    
+    <body>
+            <!--GET https://api.exchangeratesapi.io/latest HTTP/1.1 -->
+
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Choose Currency</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Canadian Dollar</a>
+    <a href="#">Singapore Dollar</a>
+    <a href="#">Swiss Franc</a>
+  </div>
+</div>
+<section id="currency-chart">
+
+          <ul class="bar-graph">
+<li class="bar-graph-axis">
+    <div class="bar-graph-label">100%</div>
+    <div class="bar-graph-label">80%</div>
+    <div class="bar-graph-label">60%</div>
+    <div class="bar-graph-label">40%</div>
+    <div class="bar-graph-label">20%</div>
+    <div class="bar-graph-label">0%</div>
+  </li>  
+
+<li class="bar first"title="US Dollar">
+    
+  </li>
+  <li class="bar second"title="Euro">
+  </li>
+  <li class="bar third"title="British Pound">
+  </li>
+  <li class="bar fourth"title="Indian Rupee">
+  </li>
+  <li class="bar fifth"title="Australian Dollar">
+ </li>
+</ul>
+</section>
+  <script src="main.js"></script>
+
+        </body>
+        
+    </html>
+    
+    <!-- <div class="description">EUR€</div> might need this for later 
+    -->
+    
